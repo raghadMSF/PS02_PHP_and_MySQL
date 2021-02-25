@@ -1,0 +1,5 @@
+Q1: Why inserting a prevously insterted value in name will generate an error ?
+A1: Because we have setted the constraints of the table to have a unique NAME column and therefore will generate an error since insterting a previous value already exists.
+
+Q2: Why for phone we have used varchar and for mobile we have used char ?
+A2: Because for mobile we know we only need a fixed length which is always 10 characters long but for phone number its variable-length case and may vary from one row to another.
